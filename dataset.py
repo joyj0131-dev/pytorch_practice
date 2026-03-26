@@ -1,7 +1,7 @@
 """
 프로젝트 : 펌프 부품 불량 검출 (Casting Defect Detection)
 작성자 : 조영진 [Youngjin Jo]
-작성일 : 2026/03/26
+작성일 : 2026/03/25
 파일 내용  : 캐글 이미지 데이터셋을 불러오고, AI 모델이 학습할 수 있도록 
             텐서(Tensor)로 변환 및 전처리(Resize, Grayscale)하는 코드입니다.
 """
