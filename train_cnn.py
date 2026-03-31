@@ -1,3 +1,10 @@
+"""
+프로젝트 : 펌프 부품 불량 검출 (Casting Defect Detection)
+작성자 : 조영진 [Youngjin Jo]
+작성일 : 2026/03/30
+파일 내용  : 만든 CNN모델로 학습을 시행하는 코드
+"""
+
 import torch
 import torch.nn as nn
 import torch.optim as optim

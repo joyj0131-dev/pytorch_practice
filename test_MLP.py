@@ -8,7 +8,7 @@
 import torch
 from torchvision import datasets, transforms
 from torch.utils.data import DataLoader
-from model import CastingMLP
+from model_MLP import CastingMLP
 from sklearn.metrics import confusion_matrix, classification_report # 심화 데이터를 추출하기 위한 사이킷런 추가
 # 1. GPU 설정
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')

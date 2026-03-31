@@ -15,7 +15,7 @@ print(f"🚀 현재 장착된 엔진: {device}")
 
 # 2. 만든 파일에서 필요한 부분 가져오기
 from dataset import train_loader        # 데이터 파일 ( 훈련용 )
-from model import CastingMLP            # MLP 모델
+from model_MLP import CastingMLP            # MLP 모델
 
 # 3. 모델
 model = CastingMLP()              # 모델이라는 변수에 만든 MLP모델 설정
